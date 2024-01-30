@@ -14,10 +14,12 @@ fullname = Console.ReadLine();
 Console.Write("Введите возраст:");
 string age;
 age = Console.ReadLine();
+int a = int.Parse(age);
+
 
 Console.Write("Введите профессию:");
 string prof;
 prof = Console.ReadLine();
 string privet;
 privet = "Приветствую";
-Console.WriteLine("Приветсвую " + name + " " + fullname + " не думал что вам " + " "+ age + " лет ");
+Console.WriteLine("Приветсвую " + name + " " + fullname + " не думал что вам " + " "+ a + " лет ");
