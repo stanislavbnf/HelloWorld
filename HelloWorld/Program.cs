@@ -32,6 +32,7 @@ Console.WriteLine(result4);
 bool some = 10 <= 20;
 bool result5 = result1 <= result;
 Console.WriteLine(some);
+Console.WriteLine(result5);
 
 string name = "Stanley" ;
 string fullname = "Kubrik";
