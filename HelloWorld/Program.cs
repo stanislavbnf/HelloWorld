@@ -18,4 +18,4 @@ char char2 = 'b';
 string str1 = "Privet";
 string str2 = "poka";
 string str3 = str1 + str2;
-string str4 = str1 + str3;
+string _ = str1 + str3;
