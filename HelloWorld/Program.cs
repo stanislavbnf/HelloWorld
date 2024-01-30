@@ -1,21 +1,23 @@
-﻿string myName = "John";
+﻿
+using System.Text;
 
-string yourName;
+Console.OutputEncoding = Encoding.UTF8;
+Console.Write("Введите имя:");
+string name;
+name = Console.ReadLine();
 
-yourName = "Jane";
 
-Console.WriteLine(yourName);
+Console.Write("Введите фамилию:");
+string fullname;
+fullname = Console.ReadLine();
 
-bool privet = true;
-bool poka = false;
-int int1 = 120;
-int int2 = 220;
-long long1 = 1242342141241;
-long long2 = 1241224132322;
-char char1 =  'a';
-char char2 = 'b';
+Console.Write("Введите возраст:");
+string age;
+age = Console.ReadLine();
 
-string str1 = "Privet";
-string str2 = "poka";
-string str3 = str1 + str2;
-string str4 = str1 + str3;
+Console.Write("Введите профессию:");
+string prof;
+prof = Console.ReadLine();
+string privet;
+privet = "Приветствую";
+Console.WriteLine("Приветсвую " + name + " " + fullname + " не думал что вам " + " "+ age + " лет ");
