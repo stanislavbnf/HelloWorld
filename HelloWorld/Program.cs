@@ -1,25 +1,43 @@
 ﻿
 using System.Text;
 
+// МНе не понятно почему Else запускается всегда кроме как когда я выбираю возраст 25
+
+
 Console.OutputEncoding = Encoding.UTF8;
-Console.Write("Введите имя:");
-string name;
-name = Console.ReadLine();
+Console.Write("Введите Ваш Возраст:");
+string vozrast;
+vozrast = Console.ReadLine();
+int a = int.Parse(vozrast);
 
 
-Console.Write("Введите фамилию:");
-string fullname;
-fullname = Console.ReadLine();
+if (a < 25)
+    Console.WriteLine("Доступ запрещен");
+if (a > 25)
+    Console.WriteLine("Доступ разрешен");
+if (a == 25)
+    Console.WriteLine("Круто,Вам 25 лет");
 
-Console.Write("Введите возраст:");
-string age;
-age = Console.ReadLine();
-int a = int.Parse(age);
+else Console.WriteLine("Не круто");
+
+// ПОчемуто number подчеркнут красным
+
+int number = 50;
+switch (nubmer)
+    case 5:
+    Console.WriteLine("ваш возраст не равен 50");
+    break;
+case 10:
+    Console.WriteLine("ваш возраст не равен 50");
+    break;
+case 25:
+    Console.WriteLine("ваш возраст не равен 50");
+    break;
+case 50:
+    Console.WriteLine("ваш возраст равен 50");
+    break;
 
 
-Console.Write("Введите профессию:");
-string prof;
-prof = Console.ReadLine();
-string privet;
-privet = "Приветствую";
-Console.WriteLine("Приветсвую " + name + " " + fullname + " не думал что вам " + " "+ a + " лет ");
+
+
+
