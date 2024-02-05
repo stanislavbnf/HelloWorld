@@ -5,38 +5,40 @@ using System.Text;
 
 
 Console.OutputEncoding = Encoding.UTF8;
-Console.Write("Введите Ваш Возраст:");
-string vozrast;
-vozrast = Console.ReadLine();
-int a = int.Parse(vozrast);
+
+//Console.Write("Введите Ваш Возраст:");
+//string vozrast;
+//vozrast = Console.ReadLine();
+//int a = int.Parse(vozrast);
 
 
-if (a < 25)
-    Console.WriteLine("Доступ запрещен");
-if (a > 25)
-    Console.WriteLine("Доступ разрешен");
-if (a == 25)
-    Console.WriteLine("Круто,Вам 25 лет");
+//if (a < 25)
 
-else Console.WriteLine("Не круто");
+//    Console.WriteLine("Доступ запрещен");
+//else if (a > 25)
+//    Console.WriteLine("Доступ разрешен");
+//else if (a == 25)
+//    Console.WriteLine("Круто,Вам 25 лет");
+
 
 // ПОчемуто number подчеркнут красным
 
 int number = 50;
-switch (nubmer)
+switch (number)
+{
     case 5:
-    Console.WriteLine("ваш возраст не равен 50");
-    break;
-case 10:
-    Console.WriteLine("ваш возраст не равен 50");
-    break;
-case 25:
-    Console.WriteLine("ваш возраст не равен 50");
-    break;
-case 50:
-    Console.WriteLine("ваш возраст равен 50");
-    break;
-
+        Console.WriteLine("ваш возраст не равен 50");
+        break;
+    case 10:
+        Console.WriteLine("ваш возраст не равен 50");
+        break;
+    case 25:
+        Console.WriteLine("ваш возраст не равен 50");
+        break;
+    case 50:
+        Console.WriteLine("ваш возраст равен 50");
+        break;
+}
 
 
 
